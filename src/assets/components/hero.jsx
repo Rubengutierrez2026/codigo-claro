@@ -93,20 +93,30 @@ function Hero() {
               </small>
             </>
           ) : (
-            <div className="mensaje-exito">
-              <h2>¡Revisá tu correo!</h2>
+            
+              <div className="mensaje-exito">
+                <div className="mensaje-icono">✓</div>
 
-              <p>
-                Si el registro se procesó correctamente,
-                recibirás un email para confirmar tu
-                suscripción.
-              </p>
+                <h2>¡Ya casi está!</h2>
 
-              <p>
-                Confirmalo para recibir tus 5 desafíos
-                de JavaScript.
-              </p>
-            </div>
+                <p className="mensaje-descripcion">
+                  Revisá tu correo y confirmá tu suscripción
+                  para recibir tus 5 desafíos de JavaScript.
+                </p>
+
+                <div className="mensaje-aviso">
+                  <strong>¿No encontrás el email?</strong>
+                  <span>
+                    Revisá también las carpetas de
+                    Promociones y Spam.
+                  </span>
+                </div>
+
+                <p className="mensaje-final">
+                  ¡Estás a un paso de empezar!
+                </p>
+              </div>
+
           )}
 
           <iframe
