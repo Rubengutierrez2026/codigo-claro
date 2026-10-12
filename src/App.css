@@ -458,3 +458,31 @@
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(16, 185, 129, 0.25);
 }
+/* CORRECCIÓN DEL ENCABEZADO - CÓDIGO CLARO */
+
+@media (min-width: 851px) {
+
+  .hero {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+
+  .brand {
+    position: absolute;
+    top: 35px;
+    left: 8%;
+    z-index: 2;
+  }
+
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-badge {
+    position: static;
+    display: inline-block;
+  }
+
+}
