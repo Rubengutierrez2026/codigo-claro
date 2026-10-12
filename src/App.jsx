@@ -1,19 +1,18 @@
+import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import './App.css'
-import Hero from './assets/components/hero'
-
-
-
-
+import Hero from './assets/components/hero';
+import VentaEbook from './assets/components/VentaEbook';
 
 function App() {
   return (
-    <main>
-      <Hero />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/ebook" element={<VentaEbook />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-
 
 export default App;

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   const [enviado, setEnviado] = useState(false);
@@ -35,13 +36,24 @@ function Hero() {
             cuando tenés que programar solo?
           </p>
 
-          <ul className="benefits">
-            <li>✓ 5 desafíos progresivos</li>
-            <li>✓ Pistas sin regalarte la respuesta</li>
-            <li>✓ Soluciones explicadas paso a paso</li>
-            <li>✓ Ejercicios de lógica y debugging</li>
-          </ul>
-        </div>
+<ul className="benefits">
+  <li>✓ 5 desafíos progresivos</li>
+  <li>✓ Pistas sin regalarte la respuesta</li>
+  <li>✓ Soluciones explicadas paso a paso</li>
+  <li>✓ Ejercicios de lógica y debugging</li>
+</ul>
+
+<div className="hero-ebook-link">
+  <p>¿Querés seguir aprendiendo?</p>
+
+  <Link to="/ebook" className="boton-ebook">
+    Conocé el ebook de 30 desafíos →
+  </Link>
+</div>
+
+</div>
+
+
 
         <div className="hero-form">
           {!enviado ? (

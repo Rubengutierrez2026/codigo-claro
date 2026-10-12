@@ -433,3 +433,28 @@
   }
 
 }
+.hero-ebook-link {
+  margin-top: 32px;
+}
+
+.hero-ebook-link p {
+  color: #cbd5e1;
+  margin-bottom: 14px;
+  font-size: 16px;
+}
+
+.boton-ebook {
+  display: inline-block;
+  padding: 14px 22px;
+  background: linear-gradient(90deg, #2563eb, #10b981);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton-ebook:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.25);
+}
