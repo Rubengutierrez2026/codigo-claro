@@ -244,7 +244,7 @@ function VentaEbook() {
         para aprender resolviendo desafíos.
       </p>
     </details>
-  </div>
+    
     <details>
       <summary>¿Qué pasa si el ebook no cumple mis expectativas?</summary>
       <p>
@@ -254,6 +254,7 @@ function VentaEbook() {
       </p>
     </details>
 
+  </div>
   </div>
 
 
