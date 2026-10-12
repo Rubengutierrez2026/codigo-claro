@@ -430,3 +430,71 @@
   background: #34d399;
   transform: translateY(-2px);
 }
+.venta-entrega {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.venta-entrega p {
+  margin: 0;
+  color: #cbd5e1;
+  font-size: 14px;
+  line-height: 1.5;
+}
+/* PREGUNTAS FRECUENTES */
+
+.venta-faq {
+  max-width: 900px;
+  margin: 100px auto 60px;
+  padding: 0 20px;
+}
+
+.venta-faq h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+
+.venta-faq-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.venta-faq details {
+  background: #142c49;
+  border: 1px solid #254568;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.venta-faq summary {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.venta-faq details p {
+  margin-top: 15px;
+  color: #cbd5e1;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .venta-faq {
+    margin-top: 65px;
+  }
+
+  .venta-faq h2 {
+    font-size: 27px;
+  }
+
+  .venta-faq summary {
+    font-size: 15px;
+  }
+}

@@ -39,7 +39,13 @@ function VentaEbook() {
                 >
                 Comprar ebook — $9.900
                 </a>
-                        </div>
+
+                <div className="venta-entrega">
+                    <p>🔒 Compra segura a través de Hotmart</p>
+                    <p>📩 Recibí el acceso por correo electrónico</p>
+                    <p>📥 Descargá tu ebook en PDF una vez confirmado el pago</p>
+                </div>
+            </div>
 
         <div className="venta-portada">
           <img
@@ -239,7 +245,17 @@ function VentaEbook() {
       </p>
     </details>
   </div>
-</div>
+    <details>
+      <summary>¿Qué pasa si el ebook no cumple mis expectativas?</summary>
+      <p>
+        Tenés 7 días desde la compra para solicitar un
+        reembolso a través de Hotmart, según las condiciones
+        de la plataforma.
+      </p>
+    </details>
+
+  </div>
+
 
     </section>
   );
