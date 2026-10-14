@@ -2,7 +2,7 @@ import './VentaEbook.css';
 
 function VentaEbook() {
   return (
-    <section className="venta-ebook">
+    <section id="ebook" className="venta-ebook">
       <div className="venta-contenedor">
 
         <div className="venta-informacion">
