@@ -72,6 +72,18 @@ function Hero() {
     setTimeout(() => setEnviado(true), 500);
   }}
 >
+               <label className="consentimiento">
+  <input
+  type="checkbox"
+  name="fields[consentimiento_marketing]"
+  value="Aceptado"
+  
+/>
+
+  <span>
+    Quiero recibir consejos de programación y novedades u ofertas de Código Claro por email. Puedo darme de baja cuando quiera. (Opcional)
+  </span>
+</label>
 
                 <input
                   id="email"
@@ -99,11 +111,19 @@ function Hero() {
                 </button>
               </form>
 
-              <small>
-                Sin spam. Solo contenido para ayudarte
-                a programar mejor.
-              </small>
-            </>
+              
+                  <div className="hero-privacidad">
+                    <small>
+                      Sin spam. Podés cancelar tu suscripción
+                      cuando quieras.
+                    </small>
+
+                    <Link to="/privacidad" className="link-privacidad">
+                      Política de privacidad
+                    </Link>
+                  </div>
+
+                              </>
           ) : (
             
               <div className="mensaje-exito">
